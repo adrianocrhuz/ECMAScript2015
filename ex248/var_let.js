@@ -10,6 +10,7 @@ function x() {
         console.log('Bloco dentro da função: ' + serie)
     }
 }
+//chamar a funcao
 x()
 if(true) {
     console.log('Global: ' + serie)
@@ -23,7 +24,6 @@ function x() {
     }
 }
 
-
 if(true) {
     var serie = "The walking Deed"
     //chamar a funcao
@@ -32,6 +32,7 @@ if(true) {
 }
 console.log(serie)
 */
+
 /*
 function x() {
     if(true) {
