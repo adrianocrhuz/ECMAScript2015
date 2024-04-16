@@ -36,7 +36,7 @@ console.log(serie)
 /*
 function x() {
     if(true) {
-        var serie = 'The walking Deed'
+        var serie = 'The walking Dead'
     }
 }
 //chamar funcao
