@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loop</title>
+</head>
+<body>
+
+    <script>
+        let numero = prompt('Dgite um número')
+        /*
+        let indice = 0
+
+        while(indice <= 10) {
+            document.write(`${numero} x ${indice} = ${(indice * numero)} <br>`)
+            indice++
+        }
+        document.write('saiu do loop while <br>')
+        */
+        /*
+        for(let tab = 0; tab <= 10; tab++) {
+            document.write(`${numero} x ${tab} = ${(tab * numero)} <br>`)
+        }
+        document.write('saiu do loop for')
+        */
+       let indice = 11 
+        do {
+            document.write(`${numero} x ${indice} = ${(indice * numero)} <br>`)
+            indice++
+
+        } while(indice <= 10)
+
+        document.write(`1 x ${numero} = ${(1 * numero)} <br>`)
+        /*document.write(`2 x ${numero} = ${(2 * numero)} <br>`)
+        document.write(`3 x ${numero} = ${(3 * numero)} <br>`)*/
+        
+    </script>
+    
+</body>
+</html>
