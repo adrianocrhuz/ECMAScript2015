@@ -30,7 +30,7 @@ document.write(parOuImpar(11))
 */
 /*
 let parOuImpar = (numero) => {
-    if (numero % 2 == 0) {
+    if (numero % 2 === 0) {
         return "Par"
     } else {
         return "Impar"
@@ -38,5 +38,5 @@ let parOuImpar = (numero) => {
 }
 document.write(parOuImpar(47))
 */
-let parOuImpar = numero => numero % 2 == 0 ? "Par" : "Impar"
+let parOuImpar = numero => numero % 2 === 0 ? "Par" : "Impar"
 document.write(parOuImpar(38))
