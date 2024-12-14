@@ -18,9 +18,7 @@ class Cachorro extends Animal {
     //metodos
     correr() {
         console.log('Correr')
-
     }
-
     rosnar() {
         console.log('Rosnar')
     }
